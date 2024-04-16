@@ -58,6 +58,7 @@ export interface SectionedMultiSelectProps<ItemType> {
   selectedItems?: any[]
   items?: ItemType[]
   displayKey?: string
+  subtitleKey?: string
   uniqueKey: string
   subKey?: string
   onSelectedItemsChange: (items: any[]) => void
